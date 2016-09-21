@@ -24,5 +24,5 @@ if ($data != null) {
 function db($key)
 {
     echo 'entra';
-    echo get($key);
+    echo print_r(get($key));
 }

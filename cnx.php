@@ -22,15 +22,15 @@ if ($decoded != null) {
  */
 function get($key)
 {
-    if (!isset($this->db)) {
-        switch ($key) {
-            case 'bayres':
-                return new MysqliDb ('127.0.0.1', 'root', 'concentrador', 'arielces_bayres');
-                break;
-            case 'mps':
-                return new MysqliDb ('127.0.0.1', 'root', 'concentrador', 'arielces_bayres');
-            default:
-                return new MysqliDb ('127.0.0.1', 'root', 'concentrador', 'arielces_bayres');
-        }
+//    if (!isset($this->db)) {
+    switch ($key) {
+        case 'bayres':
+            return new MysqliDb ('127.0.0.1', 'root', 'concentrador', 'arielces_bayres');
+            break;
+        case 'mps':
+            return new MysqliDb ('127.0.0.1', 'root', 'concentrador', 'arielces_bayres');
+        default:
+            return new MysqliDb ('127.0.0.1', 'root', 'concentrador', 'arielces_bayres');
     }
+//    }
 }
