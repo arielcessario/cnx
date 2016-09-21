@@ -1,7 +1,7 @@
 <?php
 /* TODO:
  * */
-session_start();
+
 require_once 'MysqliDb.php';
 
 $data = file_get_contents("php://input");

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" uploadOnCheckin="ad93efc6-bfcc-41fe-bb2b-9f28f7e9b1f7">
     <serverData>
       <paths name="AC-Noticias">
         <serverdata>
@@ -129,5 +129,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="CNX" />
   </component>
 </project>

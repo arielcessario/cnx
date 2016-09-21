@@ -4,13 +4,14 @@
 session_start();
 require_once '../cnx/cnx.php';
 
-$data = file_get_contents("php://input");
+$data = $_GET['function'];
+$clave = $_GET['key'];
 // Decode data from js
-$decoded = json_decode($data);
+//$decoded = json_decode($data);
 
-if ($decoded != null) {
-    if ($decoded->function == 'db') {
-        db($decoded->key);
+if ($data != null) {
+    if ($data == 'db') {
+        db($clave);
     }
 }
 
@@ -22,5 +23,6 @@ if ($decoded != null) {
  */
 function db($key)
 {
+    echo 'entra';
     echo get($key);
 }
