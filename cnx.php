@@ -15,7 +15,6 @@ if ($decoded != null) {
 }
 
 
-
 /////// INSERT ////////
 /**
  * @description Crea un producto, sus fotos, precios y le asigna las categorias
